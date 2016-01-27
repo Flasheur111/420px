@@ -1,0 +1,95 @@
+@import url(http://fonts.googleapis.com/css?family=Muli);
+
+ *{margin:0;padding:0;}
+
+body {
+    height: 100%
+}
+
+#login {
+    width:400px;
+    margin: 8px auto 2%;
+    transition:opacity 1s;
+    -webkit-transition:opacity 1s;
+}
+
+#login2 {
+    width:400px;
+    margin: 8px auto 2%;
+    transition:opacity 1s;
+    -webkit-transition:opacity 1s;
+}
+
+#triangle{
+    width:0;
+    border: 12px solid transparent;
+    border-bottom-color: #3399cc;
+    margin:0 auto;
+}
+
+#login h1{
+    background:#3399cc;
+    padding:20px 0;
+    font-size:140%;
+    font-weight:300;
+    text-align:center;
+    color:#fff;
+}
+
+#login2 h1{
+    background: #cc091a;
+    padding:20px 0;
+    font-size:140%;
+    font-weight:300;
+    text-align:center;
+    color:#fff;
+}
+
+form{
+    background:#f0f0f0;
+    padding:6% 4%;
+}
+
+input[type="email"],input[type="password"], input[type="text"]{
+    width:92%;
+    background:#fff;
+    margin-bottom:4%;
+    border:1px solid #ccc;
+    padding:4%;
+    font-family:'Open Sans',sans-serif;
+    font-size:95%;
+    color:#555;
+}
+
+input[type="submit"]{
+    width:100%;
+    background:#3399cc;
+    border:0;
+    padding:4%;
+    font-family:'Open Sans',sans-serif;
+    font-size:100%;
+    color:#fff;
+    cursor:pointer;
+    transition:background .3s;
+    -webkit-transition:background .3s;
+}
+
+input[type="submit"]:hover{
+    background:#2288bb;
+}
+
+#form_force {
+    padding: 2%;
+    display: block;
+    float: left;
+    position:relative;
+    background-color:transparent;
+}
+
+.section {
+    background:#f0f0f0;
+}
+
+.img-responsive {
+    margin: 0 auto;
+}
